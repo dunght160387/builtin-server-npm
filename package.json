@@ -1,0 +1,25 @@
+{
+  "name": "builtin-server-npm",
+  "version": "1.0.0",
+  "description": "Very quickly to start built-in server using npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "serve": "node node_modules/.bin/http-server -p 8081 -a localhost -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dunght160387/builtin-server-npm.git"
+  },
+  "keywords": [
+    "builtin-server-npm"
+  ],
+  "author": "Ha The Dzung <dunght1603@gmail.com> (https://github.com/dunght160387)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dunght160387/builtin-server-npm/issues"
+  },
+  "devDependencies": {
+    "http-server": "~0.9.0"
+  }
+}
