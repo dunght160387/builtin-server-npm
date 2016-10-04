@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "serve": "node node_modules/.bin/http-server -p 8081 -a localhost -d ./"
+    "serve": "node node_modules/.bin/http-server -p 8081 -a localhost -d ./",
+    "serve-ssl": "node node_modules/.bin/http-server -p 8082 -a localhost -d ./ -S -K key.pem -C cert.pem"
   },
   "repository": {
     "type": "git",
